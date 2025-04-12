@@ -9,6 +9,8 @@ import { routing } from "@/i18n/routing";
 import { getMessages } from "next-intl/server";
 import { setRequestLocale } from "next-intl/server";
 
+import ChatWidget from "../../components/chatbot/Chatbot";
+
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
   display: "swap",
@@ -47,6 +49,7 @@ export default async function RootLayout({
           <Navbar />
           {children}
         </NextIntlClientProvider>
+        <ChatWidget />
       </body>
     </html>
   );
