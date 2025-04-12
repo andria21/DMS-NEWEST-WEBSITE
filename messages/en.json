@@ -1,0 +1,184 @@
+{
+  "nav": {
+    "howItWorks": "How it works",
+    "services": "Services",
+    "results": "Results",
+    "pricing": "Pricing",
+    "contact": "Contact us"
+  },
+  "Hero": {
+    "welcome": "Welcome to DM's AI",
+    "title": "Automate Your Business with Smart AI Agents",
+    "subtitle": "DM's AI builds custom AI chatbots that save time, cut costs, and boost productivity.",
+    "buildAgent": "Build Your AI Agent",
+    "bookDemo": "Book a Demo"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Transform your business operations with our streamlined AI integration process",
+    "steps": {
+      "step1": {
+        "title": "Tell us your workflow",
+        "description": "Share your business processes and pain points"
+      },
+      "step2": {
+        "title": "We build your custom AI agent",
+        "description": "Our experts develop your tailored AI solution"
+      },
+      "step3": {
+        "title": "You save time and money",
+        "description": "Watch as your efficiency skyrockets"
+      }
+    }
+  },
+  "services": {
+    "title": "What We Offer",
+    "subtitle": "Comprehensive AI solutions tailored to your business needs",
+    "items": {
+      "chatbots": {
+        "title": "AI Chatbots for Websites",
+        "description": "24/7 customer engagement"
+      },
+      "support": {
+        "title": "Customer Support Automation",
+        "description": "Instant response to common queries"
+      },
+      "dataEntry": {
+        "title": "Data Entry and Scheduling AI",
+        "description": "Automated data processing"
+      },
+      "taskAutomation": {
+        "title": "Task Automation Bots",
+        "description": "Streamline repetitive tasks"
+      }
+    }
+  },
+  "results": {
+    "title": "Real Results",
+    "subtitle": "Results in Organizations",
+    "metrics": {
+      "time": {
+        "value": "15+ Hours",
+        "label": "Saved Weekly",
+        "description": "Per employee on average"
+      },
+      "cost": {
+        "value": "30%",
+        "label": "Cost Reduction",
+        "description": "In customer support operations"
+      },
+      "satisfaction": {
+        "value": "90%",
+        "label": "Customer Satisfaction",
+        "description": "With AI responses"
+      },
+      "response": {
+        "value": "30x",
+        "label": "Faster Response",
+        "description": "To customer inquiries"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Pricing Plans",
+    "subtitle": "Choose the perfect plan for your business",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "popular": "Most Popular",
+    "plans": {
+      "standard": {
+        "name": "AI Standard",
+        "features": {
+          "0": "Basic AI Chatbot",
+          "1": "Custom Design",
+          "2": "FAQ and more.",
+          "3": "24/7 Support",
+          "4": "Unlimited Users",
+          "5": "Dashboard"
+        }
+      },
+      "pro": {
+        "name": "AI Pro",
+        "popular": "Most Popular",
+        "features": {
+          "0": "Basic AI Chatbot",
+          "1": "Custom Design",
+          "2": "FAQ and more.",
+          "3": "24/7 Support",
+          "4": "Unlimited Users",
+          "5": "Dashboard",
+          "6": "API Support",
+          "7": "Priority Support"
+        }
+      },
+      "infinity": {
+        "name": "AI Infinity",
+        "features": {
+          "0": "Basic AI Chatbot",
+          "1": "Custom Design",
+          "2": "FAQ and more.",
+          "3": "24/7 Support",
+          "4": "Unlimited Users",
+          "5": "Dashboard",
+          "6": "API Support",
+          "7": "Priority Support",
+          "8": "CRM Integration"
+        }
+      }
+    },
+    "currency": "GEL",
+    "getStarted": "Get Started"
+  },
+  "consultation": {
+    "badge": "Free Consultation",
+    "title": "Let's Discuss Your AI Integration Needs",
+    "subtitle": "Schedule a free 30-minute consultation with our AI experts. We'll analyze your business needs and propose the perfect automation solution.",
+    "benefits": {
+      "0": "Personalized solution assessment",
+      "1": "ROI calculation and timeline",
+      "2": "Custom implementation strategy",
+      "3": "Live demo of similar solutions"
+    },
+    "form": {
+      "name": "Your Name",
+      "company": "Company Name",
+      "email": "Your Email",
+      "phone": "Phone Number",
+      "message": "Tell us about your business needs",
+      "submit": "Schedule Consultation",
+      "thanks": "Thank you!",
+      "formSubmitted": "Your message has been sent successfully. We will get back to you shortly."
+    }
+  },
+  "footer": {
+    "about": "Building the future of business automation with AI. We help businesses streamline operations and boost productivity through custom AI solutions.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "rights": "© 2025 DM's AI. All rights reserved.",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Let's discuss how we can help automate and optimize your business processes",
+    "form": {
+      "name": "Your Name",
+      "company": "Company Name",
+      "email": "Your Email",
+      "phone": "Phone Number",
+      "message": "How can we help you?",
+      "submit": "Send Message"
+    },
+    "emailUs": "Email Us",
+    "callUs": "Call Us",
+    "business": "Business Hours",
+    "businessHours": "Monday - Saturday",
+    "connect": "Connect with us",
+    "followUs": "Follow Us",
+    "thanks": "Thank you!",
+    "formSubmitted": "Your message has been sent successfully. We will get back to you shortly."
+  }
+}
