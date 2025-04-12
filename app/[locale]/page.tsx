@@ -164,32 +164,36 @@ export default function Home() {
             <Sparkles className="w-4 h-4 mr-2 text-emerald-400" />
             {heroT("welcome")}
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent leading-[1.2] pb-4">
+          <h1 className="text-5xl md:text-7xl max-xs:text-4xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent leading-[1.2] pb-4">
             {heroT("title")}
           </h1>
           <p className="text-xl text-gray-400 mb-12 max-w-3xl mx-auto">
             {heroT("subtitle")}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-            <Button
-              size="lg"
-              className="group relative bg-gradient-to-r from-emerald-400 to-cyan-400 hover:from-emerald-500 hover:to-cyan-500 text-black font-medium tracking-wide px-8 py-6 rounded-2xl shadow-lg shadow-emerald-400/20 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-emerald-400/30"
-            >
-              <Link href={"/contact"} className="flex items-center gap-2">
-                {heroT("buildAgent")}
-                <Bot className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
-              </Link>
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="group relative border-2 border-white/20 hover:border-emerald-400/50 text-white font-medium tracking-wide px-8 py-6 rounded-2xl backdrop-blur-sm transition-all duration-300 hover:bg-emerald-400/5"
-            >
-              <Link href={"/contact"} className="flex items-center gap-2">
-                {heroT("bookDemo")}
-                <Clock className="w-5 h-5 transition-transform duration-300 group-hover:rotate-12" />
-              </Link>
-            </Button>
+            <Link href={"/contact"} className="block">
+              <Button
+                size="lg"
+                className="group relative bg-gradient-to-r from-emerald-400 to-cyan-400 hover:from-emerald-500 hover:to-cyan-500 text-black font-medium tracking-wide px-8 py-6 rounded-2xl shadow-lg shadow-emerald-400/20 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-emerald-400/30"
+              >
+                <div className="flex items-center gap-2">
+                  {heroT("buildAgent")}
+                  <Bot className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
+                </div>
+              </Button>
+            </Link>
+            <Link href={"/contact"} className="block">
+              <Button
+                size="lg"
+                variant="outline"
+                className="group relative border-2 border-white/20 hover:border-emerald-400/50 text-white font-medium tracking-wide px-8 py-6 rounded-2xl backdrop-blur-sm transition-all duration-300 hover:bg-emerald-400/5"
+              >
+                <div className="flex items-center gap-2">
+                  {heroT("bookDemo")}
+                  <Clock className="w-5 h-5 transition-transform duration-300 group-hover:rotate-12" />
+                </div>
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -558,10 +562,10 @@ export default function Home() {
                           </div>
 
                           <h2 className="text-2xl font-semibold text-gray-900 mb-2">
-                          {consultationT("form.thanks")}
+                            {consultationT("form.thanks")}
                           </h2>
                           <p className="text-gray-600 mb-8">
-                          {consultationT("form.formSubmitted")}
+                            {consultationT("form.formSubmitted")}
                           </p>
 
                           <button

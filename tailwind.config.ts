@@ -61,6 +61,11 @@ const config: Config = {
           '5': 'hsl(var(--chart-5))',
         },
       },
+      screens: {
+        xs: '392px',
+        md: '986px',
+        // Other breakpoints...
+      },
       keyframes: {
         'accordion-down': {
           from: {

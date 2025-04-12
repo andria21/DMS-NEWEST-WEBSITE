@@ -131,39 +131,34 @@ export default function Navbar() {
               href="/#how-it-works"
               className="block px-4 py-2 text-gray-300 hover:text-white hover:bg-white/10 rounded-lg transition-colors tracking-wide text-sm font-medium"
             >
-              How it works
+               {t("howItWorks")}
             </Link>
             <Link
               href="/#services"
               className="block px-4 py-2 text-gray-300 hover:text-white hover:bg-white/10 rounded-lg transition-colors tracking-wide text-sm font-medium"
             >
-              Services
+              {t("services")}
             </Link>
             <Link
               href="/#testimonials"
               className="block px-4 py-2 text-gray-300 hover:text-white hover:bg-white/10 rounded-lg transition-colors tracking-wide text-sm font-medium"
             >
-              Results
+              {t("results")}
             </Link>
             <Link
               href="/#pricing"
               className="block px-4 py-2 text-gray-300 hover:text-white hover:bg-white/10 rounded-lg transition-colors tracking-wide text-sm font-medium"
             >
-              Pricing
+              {t("pricing")}
             </Link>
-            <Link
-              href="/#pricing"
-              className="block px-4 py-2 text-gray-300 hover:text-white hover:bg-white/10 rounded-lg transition-colors tracking-wide text-sm font-medium"
-            >
-              Pricing
-            </Link>
+
             <div className="px-4 pt-2">
               <Link href="/contact">
                 <Button
                   className="w-full border-emerald-400 text-emerald-400 hover:bg-emerald-400 hover:text-black transition-all duration-300 rounded-full tracking-wide text-sm font-medium"
                   variant="outline"
                 >
-                  Contact us
+                  {t('contact')}
                 </Button>
               </Link>
             </div>
