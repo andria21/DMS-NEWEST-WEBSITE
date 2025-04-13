@@ -503,26 +503,31 @@ export default function Home() {
                         type="text"
                         placeholder={consultationT("form.name")}
                         className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-emerald-400/50 focus:outline-none focus:ring-1 focus:ring-emerald-400/50 transition-all duration-300 placeholder-gray-500"
+                        required
                       />
                       <input
                         type="text"
                         placeholder={consultationT("form.company")}
                         className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-emerald-400/50 focus:outline-none focus:ring-1 focus:ring-emerald-400/50 transition-all duration-300 placeholder-gray-500"
+                        required
                       />
                       <input
                         type="email"
                         placeholder={consultationT("form.email")}
                         className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-emerald-400/50 focus:outline-none focus:ring-1 focus:ring-emerald-400/50 transition-all duration-300 placeholder-gray-500"
+                        required
                       />
                       <input
                         type="tel"
                         placeholder={consultationT("form.phone")}
                         className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-emerald-400/50 focus:outline-none focus:ring-1 focus:ring-emerald-400/50 transition-all duration-300 placeholder-gray-500"
+                        required
                       />
                       <textarea
                         placeholder={consultationT("form.message")}
                         rows={4}
                         className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-emerald-400/50 focus:outline-none focus:ring-1 focus:ring-emerald-400/50 transition-all duration-300 placeholder-gray-500 resize-none"
+                        required
                       ></textarea>
                     </div>
                     <Button className="w-full group relative overflow-hidden bg-gradient-to-r from-emerald-400 to-cyan-400 hover:from-emerald-500 hover:to-cyan-500 text-black shadow-lg shadow-emerald-400/20 transition-all duration-300">

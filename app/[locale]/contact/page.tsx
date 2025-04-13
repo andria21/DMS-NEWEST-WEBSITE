@@ -148,11 +148,13 @@ export default function Contact() {
                     type="text"
                     placeholder={contactT("form.name")}
                     className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-emerald-400/50 focus:outline-none focus:ring-1 focus:ring-emerald-400/50 transition-all duration-300 placeholder-gray-500"
+                    required
                   />
                   <input
                     type="text"
                     placeholder={contactT("form.company")}
                     className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-emerald-400/50 focus:outline-none focus:ring-1 focus:ring-emerald-400/50 transition-all duration-300 placeholder-gray-500"
+                    required
                   />
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -160,17 +162,20 @@ export default function Contact() {
                     type="email"
                     placeholder={contactT("form.email")}
                     className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-emerald-400/50 focus:outline-none focus:ring-1 focus:ring-emerald-400/50 transition-all duration-300 placeholder-gray-500"
+                    required
                   />
                   <input
                     type="tel"
                     placeholder={contactT("form.phone")}
                     className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-emerald-400/50 focus:outline-none focus:ring-1 focus:ring-emerald-400/50 transition-all duration-300 placeholder-gray-500"
+                    required
                   />
                 </div>
                 <textarea
                   placeholder={contactT("form.message")}
                   rows={6}
                   className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-emerald-400/50 focus:outline-none focus:ring-1 focus:ring-emerald-400/50 transition-all duration-300 placeholder-gray-500 resize-none"
+                  required
                 ></textarea>
                 <Button className="w-full group relative overflow-hidden bg-gradient-to-r from-emerald-400 to-cyan-400 hover:from-emerald-500 hover:to-cyan-500 text-black shadow-lg shadow-emerald-400/20 transition-all duration-300">
                   <span className="relative z-10 flex items-center justify-center gap-2">
