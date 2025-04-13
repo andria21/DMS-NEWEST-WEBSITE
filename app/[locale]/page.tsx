@@ -440,18 +440,19 @@ export default function Home() {
                         </li>
                       ))}
                     </ul>
-                    <Button
-                      className={`w-full group/button relative overflow-hidden ${
-                        plan.popular
-                          ? "bg-gradient-to-r from-emerald-400 to-cyan-400 hover:from-emerald-500 hover:to-cyan-500 text-black shadow-lg shadow-emerald-400/20"
-                          : "bg-white/10 hover:bg-white/20 text-white"
-                      } transition-all duration-300`}
-                    >
-                      <Link href={"/contact"} className="relative z-10">
+                    <Link href={"/contact"} className="relative z-10">
+                      <Button
+                        className={`w-full group/button relative overflow-hidden ${
+                          plan.popular
+                            ? "bg-gradient-to-r from-emerald-400 to-cyan-400 hover:from-emerald-500 hover:to-cyan-500 text-black shadow-lg shadow-emerald-400/20"
+                            : "bg-white/10 hover:bg-white/20 text-white"
+                        } transition-all duration-300`}
+                      >
                         {pricingT("getStarted")}
-                      </Link>
-                      <div className="absolute inset-0 -translate-x-full group-hover/button:translate-x-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transition-transform duration-500"></div>
-                    </Button>
+
+                        <div className="absolute inset-0 -translate-x-full group-hover/button:translate-x-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transition-transform duration-500"></div>
+                      </Button>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -25,7 +25,16 @@ export function LanguageToggler() {
     if (savedLanguage === "en" || savedLanguage === "ge") {
       setLanguage(savedLanguage);
     }
-  }, []);
+
+    const currentPath = window.location.pathname;
+    const segments = currentPath.split("/").filter(Boolean);
+    if (segments[0] !== savedLanguage) {
+      segments[0] = savedLanguage || "en";
+      const newPath = `/${segments.join("/")}`;
+      router.replace(newPath); // Use replace to avoid adding to history stack
+    }
+
+  }, [router]);
   return (
     <div className="relative group">
       <button

@@ -16,6 +16,7 @@
   }
 }
 
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -78,5 +79,15 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar {
+    width: 7px;
   }
 }

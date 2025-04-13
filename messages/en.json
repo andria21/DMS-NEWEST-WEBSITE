@@ -135,9 +135,9 @@
     "subtitle": "Schedule a free 30-minute consultation with our AI experts. We'll analyze your business needs and propose the perfect automation solution.",
     "benefits": {
       "0": "Personalized solution assessment",
-      "1": "ROI calculation and timeline",
-      "2": "Custom implementation strategy",
-      "3": "Live demo of similar solutions"
+      "1": "Visual demo",
+      "2": "Team advice on best practices", 
+      "3": "Integration roadmap"
     },
     "form": {
       "name": "Your Name",

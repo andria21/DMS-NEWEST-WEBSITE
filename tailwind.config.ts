@@ -64,6 +64,7 @@ const config: Config = {
       screens: {
         xs: '392px',
         md: '986px',
+        xxs: '432px',
         // Other breakpoints...
       },
       keyframes: {

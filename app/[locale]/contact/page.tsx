@@ -59,7 +59,7 @@ export default function Contact() {
           </div>
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent leading-[1.2] pb-4">
+          <h1 className="text-5xl md:text-7xl max-xxs:text-4xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent leading-[1.2] pb-4">
             {contactT("title")}
           </h1>
           <p className="text-xl text-gray-400 mb-12 max-w-3xl mx-auto">
@@ -75,7 +75,7 @@ export default function Contact() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Contact Card - Email */}
             <div className="group relative p-8 rounded-3xl bg-white/[0.08] border border-white/10 backdrop-blur-sm transition-all duration-500 hover:border-emerald-500/50 hover:bg-white/[0.12] hover:-translate-y-1">
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-4 max-xxs:flex-col">
                 <div className="flex-shrink-0 w-12 h-12 rounded-2xl bg-emerald-400/10 flex items-center justify-center group-hover:bg-emerald-400/20 transition-all duration-300">
                   <Mail className="w-6 h-6 text-emerald-400" />
                 </div>
@@ -95,7 +95,7 @@ export default function Contact() {
 
             {/* Contact Card - Phone */}
             <div className="group relative p-8 rounded-3xl bg-white/[0.08] border border-white/10 backdrop-blur-sm transition-all duration-500 hover:border-emerald-500/50 hover:bg-white/[0.12] hover:-translate-y-1">
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-4 max-xxs:flex-col">
                 <div className="flex-shrink-0 w-12 h-12 rounded-2xl bg-emerald-400/10 flex items-center justify-center group-hover:bg-emerald-400/20 transition-all duration-300">
                   <Phone className="w-6 h-6 text-emerald-400" />
                 </div>
@@ -115,7 +115,7 @@ export default function Contact() {
 
             {/* Contact Card - Hours */}
             <div className="group relative p-8 rounded-3xl bg-white/[0.08] border border-white/10 backdrop-blur-sm transition-all duration-500 hover:border-emerald-500/50 hover:bg-white/[0.12] hover:-translate-y-1">
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-4 max-xxs:flex-col">
                 <div className="flex-shrink-0 w-12 h-12 rounded-2xl bg-emerald-400/10 flex items-center justify-center group-hover:bg-emerald-400/20 transition-all duration-300">
                   <Clock className="w-6 h-6 text-emerald-400" />
                 </div>
