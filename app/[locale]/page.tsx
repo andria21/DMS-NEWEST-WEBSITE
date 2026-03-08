@@ -58,9 +58,9 @@ export default function Home() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const featureKeys = ["0", "1", "2", "3", "4", "5"];
-  const featureKeysPro = ["0", "1", "2", "3", "4", "5", "6", "7"];
-  const featureKeysInfinity = ["0", "1", "2", "3", "4", "5", "6", "7", "8"];
+  const featureKeys = ["0", "1", "2", "3", "4", "5", "6"];
+  const featureKeysPro = ["0", "1", "2", "3", "4", "5", "6", "7", "8"];
+  const featureKeysInfinity = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
   const consultationKeys = ["0", "1", "2", "3"];
 
@@ -71,16 +71,16 @@ export default function Home() {
   const plans = [
     {
       name: pricingT("plans.standard.name"),
-      price: isAnnual ? "5,000" : "500",
-      maxPrice: isAnnual ? "8,000" : "800",
+      price: isAnnual ? "1,500" : "150",
+      maxPrice: isAnnual ? "3,000" : "300",
       features: featureKeys.map((key) =>
         pricingT(`plans.standard.features.${key}`)
       ),
     },
     {
       name: pricingT("plans.pro.name"),
-      price: isAnnual ? "10,000" : "1,000",
-      maxPrice: isAnnual ? "15,000" : "1,500",
+      price: isAnnual ? "5,000" : "500",
+      maxPrice: isAnnual ? "7,000" : "700",
       features: featureKeysPro.map((key) =>
         pricingT(`plans.pro.features.${key}`)
       ),
@@ -88,8 +88,8 @@ export default function Home() {
     },
     {
       name: pricingT("plans.infinity.name"),
-      price: isAnnual ? "20,000" : "2,000",
-      maxPrice: isAnnual ? "50,000" : "5,000",
+      price: isAnnual ? "8,000" : "800",
+      maxPrice: isAnnual ? "10,000" : "1,000",
       features: featureKeysInfinity.map((key) =>
         pricingT(`plans.infinity.features.${key}`)
       ),

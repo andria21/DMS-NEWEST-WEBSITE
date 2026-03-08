@@ -7,7 +7,7 @@ export default function ChatWidget() {
     const script = document.createElement("script");
     script.innerHTML = `
       window.VG_CONFIG = {
-        ID: "4tcvfdywljvitdv0",
+        ID: "4VxxzhB1djGEZASHxFNN",
         region: 'eu',
         render: 'bottom-right',
         stylesheets: [

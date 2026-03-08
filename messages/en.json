@@ -94,7 +94,8 @@
           "2": "FAQ and more.",
           "3": "24/7 Support",
           "4": "Unlimited Users",
-          "5": "Dashboard"
+          "5": "Dashboard",
+          "6": "4,000 AI Messages"
         }
       },
       "pro": {
@@ -108,7 +109,8 @@
           "4": "Unlimited Users",
           "5": "Dashboard",
           "6": "API Support",
-          "7": "Priority Support"
+          "7": "Priority Support",
+          "8": "12,000 AI Messages"
         }
       },
       "infinity": {
@@ -122,7 +124,8 @@
           "5": "Dashboard",
           "6": "API Support",
           "7": "Priority Support",
-          "8": "CRM Integration"
+          "8": "CRM Integration",
+          "9": "Custom AI Messages"
         }
       }
     },
