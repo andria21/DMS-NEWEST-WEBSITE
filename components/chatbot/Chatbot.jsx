@@ -7,7 +7,7 @@ export default function ChatWidget() {
     const script = document.createElement("script");
     script.innerHTML = `
       window.VG_CONFIG = {
-        ID: "4VxxzhB1djGEZASHxFNN",
+        ID: "lbvhi8XJKf9NhgR1tNSQ",
         region: 'eu',
         render: 'bottom-right',
         stylesheets: [
@@ -31,6 +31,6 @@ export default function ChatWidget() {
 
   return <div id="VG_OVERLAY_CONTAINER" />;
 }
-// 4tcvfdywljvitdv0 dm-bot
+// DM - 4VxxzhB1djGEZASHxFNN
 
-// supta bot shm910vdzj56mily
+// ამბასადორი lbvhi8XJKf9NhgR1tNSQ
