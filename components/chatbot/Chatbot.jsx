@@ -7,7 +7,7 @@ export default function ChatWidget() {
     const script = document.createElement("script");
     script.innerHTML = `
       window.VG_CONFIG = {
-        ID: "lbvhi8XJKf9NhgR1tNSQ",
+        ID: "ifEygiNUAW9QvenPWNQs",
         region: 'eu',
         render: 'bottom-right',
         stylesheets: [
@@ -34,3 +34,4 @@ export default function ChatWidget() {
 // DM - 4VxxzhB1djGEZASHxFNN
 
 // ამბასადორი lbvhi8XJKf9NhgR1tNSQ
+// KIWIPOST - ifEygiNUAW9QvenPWNQs
